@@ -82,5 +82,11 @@ def bark
   puts "Woof!"
 end
 
+private
+def id
+  @id_number = 12345
+end
+end
+
 
 
